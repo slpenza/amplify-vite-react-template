@@ -1,4 +1,7 @@
 {
+  "os": ["linux","darwin"],
+  "cpu": ["x64"],
+  
   "name": "amplify-vite-react-template",
   "private": true,
   "version": "0.0.0",
@@ -34,7 +37,7 @@
     "typescript": "^5.4.5",
     "vite": "^5.4.10"
   },
-  "overrides": {
-    "@parcel/watcher": "2.4.1" 
+  "optionalDependencies": {
+    "@parcel/watcher-linux-x64-glibc": "^2.4.1"
   }
 }
